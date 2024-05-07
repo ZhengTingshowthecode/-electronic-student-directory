@@ -1,0 +1,11 @@
+insert into student (sno,name,gender,phone,info,Birth) values('20240001','喜羊羊','男','111111','灰太狼，来做客吧。','3506/05/25');
+insert into student (sno,name,gender,phone,info,Birth) values('20240002','懒羊羊','男','222222','嘻嘻，青草蛋糕，嘻嘻。','3507/06/26');
+insert into student (sno,name,gender,phone,info,Birth) values('20240003','沸羊羊','男','333333','阿里嘎多，美羊羊桑。','3505/03/18');
+insert into student (sno,name,gender,phone,info,Birth) values('20240004','美羊羊','女','444444','沸羊羊你真粗鲁！','3507/04/20');
+insert into student (sno,name,gender,phone,info,Birth) values('20240005','暖羊羊','女','555555','村长，我有不好的预感。','3505/08/17');
+insert into student (sno,name,gender,phone,info,Birth) values('20240006','慢羊羊','男','666666','一枝花！我可比你年轻。','3454/01/25');
+insert into student (sno,name,gender,phone,info,Birth) values('20240007','灰太狼','男','777777','我一定会回来的！！！','3481/09/26');
+insert into student (sno,name,gender,phone,info,Birth) values('20240008','红太狼','女','888888','灰太狼还不快去抓羊！','3476/11/13');
+insert into student (sno,name,gender,phone,info,Birth) values('20240009','小灰灰','男','999999','懒羊羊哥哥陪我玩。','3513/10/01');
+insert into student (sno,name,gender,phone,info,Birth) values('20240010','软绵绵','男','100000','未知','3000/05/20');
+insert into student (sno,name,gender,phone,info,Birth) values('20240011','飞机仔','男','100001','我来打个酱油。。。','3507/10/15');
