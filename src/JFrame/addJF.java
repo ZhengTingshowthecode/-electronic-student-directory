@@ -88,6 +88,7 @@ public class addJF extends JFrame {
                 student.setBirth(Birth_jt.getText());
                 student.setGender(gender_jt.getText());
                 student.setPhone(phone_jt.getText());
+                student.setInfo(info_jt.getText());
                 studentDAO.add(student);
                 addJF.this.dispose();
                 mainJF.table.setModel(new studentTableModel(mainJF.pageModel));
@@ -98,7 +99,12 @@ public class addJF extends JFrame {
         cancel_jb.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-
+                sno_jt.setText(null);
+                name_jt.setText(null);
+                Birth_jt.setText(null);
+                gender_jt.setText(null);
+                phone_jt.setText(null);
+                info_jt.setText(null);
             }
         });
     }
