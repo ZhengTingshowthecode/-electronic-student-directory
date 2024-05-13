@@ -19,7 +19,6 @@ public class studentDAO {
         List<student> stu_list=new ArrayList<>();
         try{
             cn= jdbcUtil.getCn();
-            //encode 加密   decode 解密
             if(pageModel.getSearchText()!=null&&!pageModel.getSearchText().equals("")){
                 String s = "select * from student where name like ? or " +
                         " sno like ? or " +
