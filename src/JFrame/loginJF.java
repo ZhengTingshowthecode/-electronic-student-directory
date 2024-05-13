@@ -11,7 +11,6 @@ import java.util.Arrays;
 public class loginJF extends JFrame {
     userDAO user_dao=new userDAO();
     JPanel north_panel=null;
-    JLabel picture_label=null;
     JPanel center_panel=null;
     JLabel user_label=null;
     JTextField jt=null;
@@ -26,17 +25,17 @@ public class loginJF extends JFrame {
         setListener();
     }
     public void initFrame(){
-        this.setTitle("界面登录");
-        this.setLocationRelativeTo(this);
+        this.setTitle("电子同学录");
+        this.setLocationRelativeTo(null);
         this.setSize(400,300);
         this.setResizable(false);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public void initPanel(){
         north_panel=new JPanel(new FlowLayout(FlowLayout.CENTER));
-        //ImageIcon image=new ImageIcon();
-        picture_label=new JLabel();
-        north_panel.add(picture_label);
+        ImageIcon img=new ImageIcon("D:\\二\\classmatesManager_remember\\src\\image\\bg_img.png");
+        JLabel img_jl=new JLabel(img);
+        north_panel.add(img_jl);
         this.add(north_panel,BorderLayout.NORTH);
         center_panel=new JPanel(new GridLayout(2,2));
         user_label=new JLabel("账号:",JLabel.CENTER);
