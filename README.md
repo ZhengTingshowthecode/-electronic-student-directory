@@ -15,9 +15,9 @@ Based on Java ,java swing, java awt ,JDBC and MYSQL, the electronic student dire
 # Description of the system frame
 1. DAO : (Database-related operations)
    
-      1) studentDAO : SQL statements such as querying, obtaining student information, total, and adding students
+       1) studentDAO : SQL statements such as querying, obtaining student information, total, and adding students
    
-      2) userDAO : SQL statements to obtain the ID and password of the logon user for login
+       2) userDAO : SQL statements to obtain the ID and password of the logon user for login
    
 2. entity :
    
